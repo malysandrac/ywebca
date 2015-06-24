@@ -1,0 +1,16 @@
+{
+  "name": "ywca-workspace",
+  "version": "0.0.1",
+  "description": "YWCA Workspace for Sandra Maly",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:malysandrac/ywebca.git"
+  },
+  "author": {
+    "name": "Sandra Maly",
+    "email": "malysandrac@gmail.com",
+    "url": "https://github.com/malysandrac"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
