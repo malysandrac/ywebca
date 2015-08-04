@@ -1,310 +1,883 @@
 Sandras-MacBook-Air.local
-/Users/Sandycheeks/dev/ywebCA
+/Users/Sandycheeks/dev/ywebca
 
 
-Expressions and Statements exercises **
+Defining a Function exercises ***
 
-Variables exercises *******
+Parameters and Scopes exercises *******
 
-Keywords and Reserved Words exercises *
+Nested Scope exercises XXXXXXXXXXXXXXXXXX
+  Nest 1 X
+    should have the correct answer 
+      Expected:
 
-The environment exercises *
+      Actual:
+false
 
-the functions exercises *
+  Nest 2 X
+    should have the correct answer 
+      Expected:
 
-The console.log Function exercises *****
+      Actual:
+false
 
-Return Values exercises *****
+  Nest 3 X
+    should have the correct answer 
+      Expected:
 
-Prompt and Confirm exercises **
+      Actual:
+false
 
-Control Flow exercises **
+  Nest 4 X
+    should have the correct answer 
+      Expected:
 
-Conditional Execution exercises ****
+      Actual:
+false
 
-While and dowhile Loops exercises ****
+  Nest 5 X
+    should have the correct answer 
+      Expected:
 
-Indenting Code exercises **
+      Actual:
+false
 
-for Loops exercises ***
+  Nest 6 X
+    should have the correct answer 
+      Expected:
 
-Breaking Out of a Loop exercises **
+      Actual:
+false
 
-Updating Variables Succinctly exercises ***
+  Nest 7 X
+    should have the correct answer 
+      Expected:
 
-Dispatching on a Value with switch exercises *
+      Actual:
+false
 
-Capitalization exercises *
+  Nest 8 X
+    should have the correct answer 
+      Expected:
 
-Comments exercises **
+      Actual:
+false
 
-Looping a Triangle solution ***
+  Nest 9 X
+    should have the correct answer 
+      Expected:
 
-FizzBuzz solution ***
+      Actual:
+false
 
-Chess Board exercise *****
+  Nest 10 X
+    should have the correct answer 
+      Expected:
+
+      Actual:
+false
+
+  Nest 11 X
+    should have the correct answer 
+      Expected:
+
+      Actual:
+false
+
+  Nest 12 X
+    should have the correct answer 
+      Expected:
+
+      Actual:
+false
+
+  Nest 13 X
+    should have the correct answer 
+      Expected:
+
+      Actual:
+false
+
+  Nest 14 X
+    should have the correct answer 
+      Expected:
+
+      Actual:
+false
+
+  Nest 15 X
+    should have the correct answer 
+      Expected:
+
+      Actual:
+false
+
+  Nest 16 X
+    should have the correct answer 
+      Expected:
+
+      Actual:
+false
+
+  Nest 17 X
+    should have the correct answer 
+      Expected:
+
+      Actual:
+false
+
+  Nest 18 X
+    should have the correct answer 
+      Expected:
+
+      Actual:
+false
+
+
+Functions as Values exercises XX
+  Values 1 XXXX
+    given spaceCubeDetector and volume should assign spaceCubeDetector to volume 
+      Expected:
+/volume\s+=\s+spaceCubeDetector/m
+      Actual:
+function ( volume, spaceCubeDetector ) {  //
+//=======================================================//
+
+
+
+}
+
+    given spaceCubeDetector and volume should call volume once after assignement *
+      Expected:
+/volume\([^\(\),]*,[^\(\),]*,[^\(\),]*\);/
+      Actual:
+function ( volume, spaceCubeDetector ) {  //
+//=======================================================//
+
+
+
+}
+
+    given spaceCubeDetector and volume should call to the function value of spaceCubeDetector once after the assignment *
+      Expected:
+1
+      Actual:
+0
+
+    given spaceCubeDetector and volume should return the new volume 
+      Expected:
+function () {
+        var callData = {
+          object: this,
+          args: Array.prototype.slice.apply(arguments)
+        };
+
+        callTracker.track(callData);
+        var returnValue = spyStrategy.exec.apply(this, arguments);
+        callData.returnValue = returnValue;
+
+        return returnValue;
+      }
+      Actual:
+undefined
+
+  Values 2 XXX
+    given volume should assign a new function to volume 
+      Expected:
+/volume\s+=\s+function/m
+      Actual:
+function ( volume ) {  //
+//====================================//
+
+
+
+}
+
+    given volume should return the new volume 
+      Expected:
+function
+      Actual:
+undefined
+
+    should return a volume function that calculates proper volumes 
+      Expected:
+
+      Actual:
+
+
+
+Declaration Notation exercises XX
+  Declaration 1 XX
+    should declare a function called testNinja 
+      Expected:
+
+      Actual:
+null
+
+    should log the correct string in testNinja 
+      Expected:
+
+      Actual:
+
+
+  Declaration 2 XXXX
+    should call trainNinja with the argument "punch" 
+      Expected:
+
+      Actual:
+null
+
+    should log the result of calling trainNinja 
+      Expected:
+
+      Actual:
+function () {
+        var callData = {
+          object: this,
+          args: Array.prototype.slice.apply(arguments)
+        };
+
+        callTracker.track(callData);
+        var returnValue = spyStrategy.exec.apply(this, arguments);
+        callData.returnValue = returnValue;
+
+        return returnValue;
+      }
+
+      Expected:
+1
+      Actual:
+0
+
+      Expected:
+Kick, punch, block! It's all in the mind!
+      Actual:
+
+
+    should declare a function called trainNinja that takes a parameter move 
+      Expected:
+
+      Actual:
+null
+
+    should call trainNinja above/before the function declaration 
+      Expected:
+
+      Actual:
+false
+
+
+The Call Stack exercises XX
+  Stack 1 X
+    should return two pancake flavors, concatenated 
+      Expected:
+chocolate chip snozzberries
+      Actual:
+undefined
+
+  Stack 2 XXXX
+    should return a stack of four pancakes 
+      Expected:
+apple,breadfruit,strawberry,durian
+      Actual:
+undefined
+
+    should log the number of pancakes in the stack 
+      Expected:
+2
+      Actual:
+function () {
+        var callData = {
+          object: this,
+          args: Array.prototype.slice.apply(arguments)
+        };
+
+        callTracker.track(callData);
+        var returnValue = spyStrategy.exec.apply(this, arguments);
+        callData.returnValue = returnValue;
+
+        return returnValue;
+      }
+
+    should log the flavor of the top pancake 
+      Expected:
+durian
+      Actual:
+function () {
+        var callData = {
+          object: this,
+          args: Array.prototype.slice.apply(arguments)
+        };
+
+        callTracker.track(callData);
+        var returnValue = spyStrategy.exec.apply(this, arguments);
+        callData.returnValue = returnValue;
+
+        return returnValue;
+      }
+
+    should log the order of the pancake in question 
+      Expected:
+3
+      Actual:
+function () {
+        var callData = {
+          object: this,
+          args: Array.prototype.slice.apply(arguments)
+        };
+
+        callTracker.track(callData);
+        var returnValue = spyStrategy.exec.apply(this, arguments);
+        callData.returnValue = returnValue;
+
+        return returnValue;
+      }
+
+
+Optional Arguments exercises XX
+  Optional 1 X
+    should return a function that has 4 parameters 
+      Expected:
+
+      Actual:
+
+
+  Optional 2 X
+    should call a given function with 4 arguments 
+      Expected:
+
+      Actual:
+
+
+
+Closure exercises XX
+  Closures 1 XX
+    should return a partially curried function that returns "THIS IS NO SPACE CUBE!" when given 4 and 2 and then 5 
+      Expected:
+
+      Actual:
+
+
+    should return a partially curried function that returns "SPACE CUBE DETECTED" when given 5 and 5 and then 5 
+      Expected:
+
+      Actual:
+
+
+  Closures 2 XX
+    should return a curried function that returns "THIS IS NO SPACE CUBE!" when given 4, 2, and then 5 
+      Expected:
+
+      Actual:
+
+
+    should return a curried function that returns "SPACE CUBE DETECTED!!" when given 5, 5, and then 5 
+      Expected:
+
+      Actual:
+
+
+
+Recursion exercises XX
+  Recursion 1 *XX
+    should have the call to controller written only once 
+      Expected:
+
+      Actual:
+
+
+    should call controller with each part of the code 
+      Expected:
+up,up,down,down,left,right,left,right,B,A,select,start
+      Actual:
+
+
+  Recursion 2 XX
+    should call click # times 
+      Expected:
+8
+      Actual:
+0
+
+    should call twist # times 
+      Expected:
+7
+      Actual:
+0
+
+
+Growing Functions exercises X
+  Growing 1 X*
+    should have the call to console.log written only once 
+      Expected:
+1
+      Actual:
+3
+
+
+Functions and Side Effects exercises XX
+  Side Effects 1 X*
+    should call the functions that are pure 
+      Expected:
+
+      Actual:
+function () {
+        var callData = {
+          object: this,
+          args: Array.prototype.slice.apply(arguments)
+        };
+
+        callTracker.track(callData);
+        var returnValue = spyStrategy.exec.apply(this, arguments);
+        callData.returnValue = returnValue;
+
+        return returnValue;
+      }
+
+      Expected:
+
+      Actual:
+function () {
+        var callData = {
+          object: this,
+          args: Array.prototype.slice.apply(arguments)
+        };
+
+        callTracker.track(callData);
+        var returnValue = spyStrategy.exec.apply(this, arguments);
+        callData.returnValue = returnValue;
+
+        return returnValue;
+      }
+
+  Side Effects 2 X*
+    should call the functions that are not pure 
+      Expected:
+
+      Actual:
+function () {
+        var callData = {
+          object: this,
+          args: Array.prototype.slice.apply(arguments)
+        };
+
+        callTracker.track(callData);
+        var returnValue = spyStrategy.exec.apply(this, arguments);
+        callData.returnValue = returnValue;
+
+        return returnValue;
+      }
+
+      Expected:
+
+      Actual:
+function () {
+        var callData = {
+          object: this,
+          args: Array.prototype.slice.apply(arguments)
+        };
+
+        callTracker.track(callData);
+        var returnValue = spyStrategy.exec.apply(this, arguments);
+        callData.returnValue = returnValue;
+
+        return returnValue;
+      }
+
+      Expected:
+
+      Actual:
+function () {
+        var callData = {
+          object: this,
+          args: Array.prototype.slice.apply(arguments)
+        };
+
+        callTracker.track(callData);
+        var returnValue = spyStrategy.exec.apply(this, arguments);
+        callData.returnValue = returnValue;
+
+        return returnValue;
+      }
+
+
+Minimum exercise XX*XX
+  should declare a function `min3` that is a member of `Exer` 
+    Expected:
+function
+    Actual:
+undefined
+
+  should declare function `min` that is a member of `Exer` 
+    Expected:
+function
+    Actual:
+undefined
+
+  Exer.min3() XXXX
+    should accept three parameters 
+      Expected:
+
+      Actual:
+
+
+    should return the minimum given -3, 2, and 22 
+      Expected:
+
+      Actual:
+
+
+    should return the minimum given 678, 4, and Infinity 
+      Expected:
+
+      Actual:
+
+
+    should return the minimum given 0, 12, and -Infinity 
+      Expected:
+
+      Actual:
+
+
+  Exer.min() XXXXX
+    should accept three parameters 
+      Expected:
+
+      Actual:
+
+
+    should return the minimum given 0 and 10 
+      Expected:
+
+      Actual:
+
+
+    should return the minimum given 10 and 0 
+      Expected:
+
+      Actual:
+
+
+    should return the minimum given -5 and 6 
+      Expected:
+
+      Actual:
+
+
+    should return the minimum given 1000, 100, and 10 
+      Expected:
+
+      Actual:
+
+
+
+Recursion exercise XXXXXX
+  should declare a function `isEven` as a member of `Exer` 
+    Expected:
+function
+    Actual:
+undefined
+
+  should declare a function `isFooDivByBar` as a member of `Exer` 
+    Expected:
+function
+    Actual:
+undefined
+
+  should declare a function `isDivisibleBy` as a member of `Exer` 
+    Expected:
+function
+    Actual:
+undefined
+
+  declares `isEven()`, a function that XXXXXX
+    should be recursive 
+      Expected:
+
+      Actual:
+
+
+      Expected:
+/Exer.isEven\(.+\)/gm
+      Actual:
+undefined
+
+    should accept one parameter 
+      Expected:
+
+      Actual:
+
+
+      Expected:
+/^\s*function\s*\(\s*\w+.*\s*\)\s*\{$/gm
+      Actual:
+undefined
+
+    should return true given an even number 
+      Expected:
+
+      Actual:
+
+
+      Expected:
+
+      Actual:
+
+
+    should return false given an odd number 
+      Expected:
+
+      Actual:
+
+
+      Expected:
+
+      Actual:
+
+
+    should return true given a negative even number 
+      Expected:
+
+      Actual:
+
+
+      Expected:
+
+      Actual:
+
+
+    should return false given a negative odd number 
+      Expected:
+
+      Actual:
+
+
+      Expected:
+
+      Actual:
+
+
+  declares `isFooDivByBar(), a function that XXXXX
+    should accept two parameters named `foo` and `bar` 
+      Expected:
+
+      Actual:
+
+
+      Expected:
+/^\s*function\s*\(\s*foo,\s*bar\s*\)\s*\{$/gm
+      Actual:
+undefined
+
+    should be recursive 
+      Expected:
+
+      Actual:
+
+
+      Expected:
+/Exer.isFooDivByBar\(.+,.+\)/gm
+      Actual:
+undefined
+
+    should not use modulo *
+      Expected:
+
+      Actual:
+
+
+    should return true if `foo` is divisible by `bar` 
+      Expected:
+
+      Actual:
+
+
+      Expected:
+
+      Actual:
+
+
+    should return false if `foo` is not divisible by `bar` 
+      Expected:
+
+      Actual:
+
+
+      Expected:
+
+      Actual:
+
+
+  declares `isDivisibleBy`, a function that XXX
+    should accept one parameter 
+      Expected:
+
+      Actual:
+
+
+    should return a function 
+      Expected:
+
+      Actual:
+
+
+    returns a function that XXXXXX
+      is recursive 
+        Expected:
+
+        Actual:
+
+
+        Expected:
+
+        Actual:
+
+
+      should not use modulo *
+        Expected:
+
+        Actual:
+
+
+      given 5 to `isDivisbleBy`, should return true when called with 225 
+        Expected:
+
+        Actual:
+
+
+        Expected:
+
+        Actual:
+
+
+      given 13 to `isDivisibleBy`, should return true when called with 91 
+        Expected:
+
+        Actual:
+
+
+        Expected:
+
+        Actual:
+
+
+      given 13 to `isDivisbleBy`, should return false when called with 92 
+        Expected:
+
+        Actual:
+
+
+        Expected:
+
+        Actual:
+
+
+      given 12 to `isDivisibleBy`, should return false when called with 6 
+        Expected:
+
+        Actual:
+
+
+        Expected:
+
+        Actual:
+
+
+
+Bean Counting exercise XXXXXX
+  should declare a function `countBs` as a member of `Exer` 
+    Expected:
+function
+    Actual:
+undefined
+
+  should delcare a function `countChar` as a member of `Exer 
+    Expected:
+function
+    Actual:
+undefined
+
+  should declare a function `countCharX` as a member of `Exer` 
+    Expected:
+function
+    Actual:
+undefined
+
+  function `countBs XX
+    given the string "BBC", should return the number of capital "B"s 
+      Expected:
+
+      Actual:
+
+
+    given the string "Babbling Baby Boy Bees", should return the number of capital "B"s 
+      Expected:
+
+      Actual:
+
+
+  function `countChar` XXX
+    should expect two parameters 
+      Expected:
+
+      Actual:
+
+
+    given the string "Babbling Baby Boy Bees" and the letter "b", should return the number of lower-case "b"s 
+      Expected:
+
+      Actual:
+
+
+    given the string "camelCaseChampionshipCupContestant" and the letter "C", should return the number of capital "C"s 
+      Expected:
+
+      Actual:
+
+
+  function `countCharX` XXX
+    should expect one parameter 
+      Expected:
+
+      Actual:
+
+
+    should return a function 
+      Expected:
+
+      Actual:
+
+
+    returns a function that XXX
+      should expect one parameter 
+        Expected:
+
+        Actual:
+
+
+      given `countCharX("b")` and the argument "Babbling Baby Boy Bees", should return the number of lower-case "b"s  
+        Expected:
+
+        Actual:
+
+
+      given `countCharX("C")` and the argument "camelCaseChampionshipCupContestant", should return the number of capital "C"s 
+        Expected:
+
+        Actual:
+
+
 
 The following was logged:
-shoot
-Console 2:
-3
-Console 2:
-Hello, world!
-Console 2:
-[object Object]
-Console 3:
-The magic word is "Abracadabra!"
-Console 3:
-The magic word is "Shazam!"
-Console 3:
-The magic word is "Please"
-Console 4:
-31
-90
-Console 5:
-secret passphrase
-Return 1:
-49.5
-Return 3:
-bcdaBCDA
-Return 4:
-38.759.9
-Control 2:
-bye
-bye
-bye
-Conditional 1:
-Welcome to Camelot!
-On second thoughts, let's not go to Camelot. It is a silly place.
-Catch of the day: influenza, $14/lb.
-Thanks for visiting Pier One and Three Quarters!
-While 1:
-10 sheep
-9 sheep
-8 sheep
-7 sheep
-6 sheep
-5 sheep
-4 sheep
-3 sheep
-2 sheep
-1 sheep
-While 2:
-I'm melting!
-m melting!
-melting!
-lting!
-ing!
-g!
-What a world!
-do while 1:
-0
-1
-2
-0
-1
-2
-do while 2:
-Train# 1: In flight!?
-Train# 2: In flight!?
-Train# 3: In flight!?
-Train# 4: In flight!?
-Train# 5: In flight!?
-Train# 6: In flight!?
-Train# 7: In flight!?
-For 1:
-...
-    ...AA
-        ...AAAA
-            ...AAAAAA
-                ...AAAAAAAA
-                    ...AAAAAAAAAAH!
-For 2:
-Hi!
-My name is
-My name is
-My name is
-Slim Shady
-Hi!
-My name is
-My name is
-My name is
-Slim Shady
-For 3:
-20
-even
-19
-odd
-18
-even
-17
-odd
-16
-even
-15
-odd
-14
-even
-13
-odd
-12
-even
-11
-odd
-10
-even
-9
-odd
-8
-even
-7
-odd
-6
-even
-5
-odd
-Zardoz
-The FP
-The Lost Skeleton of Cadavra
-Electric Boogaloo!
-Succinct 2:
-2! 2 fluttering hippos! Ah ah ah ah ah!
-3! 3 fluttering hippos! Ah ah ah ah ah!
-4! 4 fluttering hippos! Ah ah ah ah ah!
-5! 5 fluttering hippos! Ah ah ah ah ah!
-6! 6 fluttering hippos! Ah ah ah ah ah!
-7! 7 fluttering hippos! Ah ah ah ah ah!
-8! 8 fluttering hippos! Ah ah ah ah ah!
-9! 9 fluttering hippos! Ah ah ah ah ah!
-10! 10 fluttering hippos! Ah ah ah ah ah!
-Succinct 3:
-!
-e
-m
- 
-e
-s
-r
-e
-v
-e
-R
-Switch 1:
-The cow goes "foo"!
-Switch 1:
-The sheep goes "bar"!
-Switch 1:
-The duck goes "quux"!
-Switch 1:
-The fox goes "ring-a-ding-ding-dingding-ding-a-ding-ding"!
-Comments 2:
-     *     *     *     *
- *    * *   * *   * *   * *
-  *  *   * *  *  *   * *   
-#
-##
-###
-####
-#####
-######
-#######
-1
-2
-Fizz
-4
-Buzz
-Fizz
-7
-8
-Fizz
-Buzz
-11
-Fizz
-13
-14
-FizzBuzz
-16
-17
-Fizz
-19
-Buzz
-Fizz
-22
-23
-Fizz
-Buzz
-26
-Fizz
-28
-29
-FizzBuzz
-31
-32
-Fizz
-34
-Buzz
-Fizz
-37
-38
-Fizz
-Buzz
-41
-Fizz
-43
-44
-FizzBuzz
-46
-47
-Fizz
-49
-Buzz
-Fizz
-52
-53
-Fizz
-Buzz
-56
-Fizz
-58
-59
-FizzBuzz
-61
-62
-Fizz
-64
-Buzz
-Fizz
-67
-68
-Fizz
-Buzz
-71
-Fizz
-73
-74
-FizzBuzz
-76
-77
-Fizz
-79
-Buzz
-Fizz
-82
-83
-Fizz
-Buzz
-86
-Fizz
-88
-89
-FizzBuzz
-91
-92
-Fizz
-94
-Buzz
-Fizz
-97
-98
-Fizz
-Buzz
+The Log Says: I'm a secret passphrase!
+Defining 3:
+289
+THIS IS NO SPACE CUBE!
+SPACE CUBE DETECTED!!
+THIS IS NO SPACE CUBE!
+Declaration 1:
+Declaration 2:
+STACK 1 & 2:
+The pigs need 4sq. ft.
+The chickens need 16sq. ft.
+The sheep need 9sq. ft.
